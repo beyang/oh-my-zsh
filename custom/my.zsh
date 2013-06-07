@@ -9,3 +9,9 @@ alias diff='colordiff'
 export ZSH_THEME="superjarin"
 
 unsetopt share_history
+unsetopt correct
+unsetopt correctall
+
+export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig  # discover xcb-shm
+
+export PATH=$PATH:/Users/beyang/bin/ec2-api-tools
