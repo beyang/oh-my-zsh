@@ -16,6 +16,7 @@ alias diff='colordiff'
 
 # go
 export GOPATH=$HOME/dev/go
+export GOROOT=$GOPATH/go
 
 # misc
 export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig # discover xcb-shm
