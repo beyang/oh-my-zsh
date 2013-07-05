@@ -5,7 +5,6 @@ export EDITOR=$(which emacs)
 export SHELL=$(which zsh)
 
 # zsh config
-export ZSH_THEME="superjarin"
 unsetopt share_history
 unsetopt correct
 unsetopt correctall
