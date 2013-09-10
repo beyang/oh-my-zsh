@@ -19,3 +19,6 @@ export GOROOT=$GOPATH/go
 
 # misc
 export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig # discover xcb-shm
+
+# bump up file descriptor limit
+ulimit -n 2048
